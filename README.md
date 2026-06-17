@@ -1,6 +1,6 @@
-# Solana DEX Arbitrage Bot
+# Lyra Route Lab
 
-Rust foundation for a Solana cross-DEX arbitrage bot. The current CLI can execute single-leg swaps on Jupiter or Raydium, which gives the project a safe base for later quote comparison, route selection, and multi-leg arbitrage execution.
+Rust CLI for researching and executing Solana DEX routes through Jupiter or Raydium. The current tool focuses on safe single-route execution, local transaction signing, and configurable routing parameters.
 
 ## Configure
 

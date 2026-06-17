@@ -594,6 +594,25 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "112b39cec0b298b6c1999fee3e31427f74f676e4cb9879ed1a121b43661a4154"
 
 [[package]]
+name = "lyra-route-lab"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "base64",
+ "bincode",
+ "bs58",
+ "dotenvy",
+ "reqwest",
+ "serde",
+ "serde_json",
+ "solana-keypair",
+ "solana-pubkey",
+ "solana-signer",
+ "solana-transaction",
+ "tokio",
+]
+
+[[package]]
 name = "memchr"
 version = "2.8.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1118,25 +1137,6 @@ name = "solana-define-syscall"
 version = "2.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "2ae3e2abcf541c8122eafe9a625d4d194b4023c20adde1e251f94e056bb1aee2"
-
-[[package]]
-name = "solana-dex-arbitrage-bot"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "base64",
- "bincode",
- "bs58",
- "dotenvy",
- "reqwest",
- "serde",
- "serde_json",
- "solana-keypair",
- "solana-pubkey",
- "solana-signer",
- "solana-transaction",
- "tokio",
-]
 
 [[package]]
 name = "solana-hash"
